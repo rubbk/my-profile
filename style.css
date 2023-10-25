@@ -1,0 +1,60 @@
+body {
+	font-family: courrier, monospace;
+	background-color: darkseagreen;
+	color:brown;
+	font-size: 15px;
+} 	
+
+a{
+	text-decoration: none;
+	color: lightslategray;
+	text-decoration : underline;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#imageprofile {
+	width: 130px;
+	border-radius: 60%;
+	size: 30px;
+}
+#container{
+	border:2px solid gray;
+	margin: 10px;
+	text-align:center;
+	width: 1000px; 
+  	margin: 40px auto;
+  	background-color: rgb(239, 226, 186, 1.0);
+  	box-shadow: 0px 4px 12px rgb(0, 0, 0, 1.0);
+}
+
+#card{
+	margin:42px;
+	border:2px solid gray;
+	margin:12px;
+	box-shadow: 0px 1px 4px rgb(0, 0, 0, 1.0);
+}
+
+#liste{
+	list-style-position: inside;
+ 	list-style-type: square;
+ 	ist-style: none; 
+  	display: inline; 
+  	padding-right: 100px;
+}
+
